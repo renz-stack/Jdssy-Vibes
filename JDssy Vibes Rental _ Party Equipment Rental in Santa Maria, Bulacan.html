@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>JDssy Vibes Rental | Party Equipment Rental in Santa Maria, Bulacan</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600;700&family=Poppins:wght@400;500;600&display=swap">
+<style>
+:root{--bg:#faf8ff;--surface:#fff;--text:#231942;--muted:#6b6485;--accent:#6a3de8;--soft:#efe9ff;--gold:#f5b301;--line:#e3dcf5;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#140f24;--surface:#1e1736;--text:#f4f0ff;--muted:#b3a9cf;--accent:#9a7bff;--soft:#2a2150;--line:#33295a}}
+:root[data-theme="dark"]{--bg:#140f24;--surface:#1e1736;--text:#f4f0ff;--muted:#b3a9cf;--accent:#9a7bff;--soft:#2a2150;--line:#33295a}
+*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:70px}
+body{margin:0;background:var(--bg);color:var(--text);font-family:"Poppins",system-ui,-apple-system,"Segoe UI",sans-serif;line-height:1.6;overflow-x:hidden}
+h1,h2,h3,.logo{font-family:"Fredoka","Trebuchet MS",system-ui,sans-serif;line-height:1.15}
+a{color:inherit}.wrap{max-width:1040px;margin:0 auto;padding:0 20px}
+header{position:sticky;top:env(safe-area-inset-top,0px);z-index:10;background:var(--bg);border-bottom:1px solid var(--line)}
+nav{display:flex;justify-content:space-between;align-items:center;padding:10px 0}
+.logo{font-weight:700;font-size:1.3rem;text-decoration:none}.logo b{color:var(--accent)}
+nav ul{display:flex;gap:6px;list-style:none;margin:0;padding:0;align-items:center}
+nav ul a{text-decoration:none;font-weight:500;font-size:.9rem;padding:6px 12px;border-radius:99px;color:var(--muted)}
+nav ul a:hover{color:var(--accent)}
+.btn{display:inline-block;padding:12px 26px;border-radius:99px;font-weight:600;text-decoration:none;background:var(--accent);color:#fff;transition:.15s;margin:6px 6px 6px 0}
+.btn:hover{filter:brightness(1.1);transform:translateY(-1px)}
+.btn.pink{background:transparent;color:#fff;border:2px solid #fff}
+.btn.sm{padding:8px 18px;margin:0}nav ul a.btn{color:#fff}
+.hero{position:relative;color:#fff;text-align:center;padding:84px 0 92px;overflow:hidden;background:linear-gradient(135deg,#2d1670,#5a30c8)}
+.hero::before{content:"";position:absolute;inset:0;background-image:radial-gradient(#fff 2px,transparent 2px);background-size:80px 80px;opacity:.1}
+.hero .wrap{position:relative}
+.pill{display:inline-block;background:rgba(255,255,255,.15);border-radius:99px;padding:5px 16px;font-weight:500;font-size:.85rem}
+.hero h1{font-size:clamp(2.6rem,9vw,5rem);margin:22px 0 14px}
+.hero h1 span{color:#ffd45e}
+.hero p{max-width:540px;margin:0 auto 26px;font-size:1.05rem;opacity:.9}
+.hero .btn:not(.pink){background:#fff;color:#2d1670}
+.float{position:absolute;font-size:2.4rem;opacity:.45;animation:bob 5s ease-in-out infinite}
+.f1{left:6%;top:22%}.f2{right:7%;top:30%;animation-delay:1s}.f3{left:14%;bottom:12%;animation-delay:2s}.f4{right:15%;bottom:10%;animation-delay:.5s}
+@keyframes bob{50%{transform:translateY(-12px)}}
+@media(prefers-reduced-motion:reduce){.float,.ribbon div{animation:none}}
+.ribbon{background:var(--soft);color:var(--accent);overflow:hidden;white-space:nowrap;font-weight:500;font-size:1rem;padding:12px 0}
+.ribbon div{display:inline-block;animation:slide 30s linear infinite}
+@keyframes slide{to{transform:translateX(-50%)}}
+section{padding:64px 0}
+.head{text-align:center;margin-bottom:34px}
+.head h2{font-size:clamp(1.8rem,5vw,2.6rem);margin:0}.head p{color:var(--muted);margin:8px 0 0}
+.tag{display:inline-block;color:var(--accent);font-weight:600;font-size:.78rem;letter-spacing:.1em;text-transform:uppercase;margin-bottom:8px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:20px}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:20px;padding:24px;box-shadow:0 6px 20px rgba(60,30,120,.07);transition:.2s}
+.card:hover{transform:translateY(-4px);box-shadow:0 12px 28px rgba(60,30,120,.14)}
+.card .ic{font-size:2rem;width:58px;height:58px;display:grid;place-items:center;border-radius:16px;margin-bottom:12px;background:var(--soft)}
+.card h3{margin:0 0 6px;font-size:1.25rem}.card p{margin:0;color:var(--muted);font-size:.93rem}
+.stats{background:var(--accent);color:#fff;padding:34px 0}
+.stats .grid{text-align:center;gap:10px}.stats b{display:block;font-family:"Fredoka",sans-serif;font-size:2.4rem}
+.pk{text-align:center}.pk .card{position:relative}.pk .hot{border:2px solid var(--accent)}
+.pk .tagbadge{position:absolute;top:-13px;left:50%;transform:translateX(-50%);background:var(--accent);color:#fff;font-weight:600;font-size:.75rem;padding:3px 14px;border-radius:99px}
+.pk ul{list-style:none;padding:0;margin:14px 0 18px;text-align:left;font-size:.93rem}.pk li::before{content:"✓ ";font-weight:700;color:var(--accent)}
+.steps{counter-reset:s}.steps .card::before{counter-increment:s;content:counter(s);display:grid;place-items:center;width:40px;height:40px;border-radius:50%;background:var(--soft);color:var(--accent);font-family:"Fredoka",sans-serif;font-size:1.3rem;margin-bottom:10px}
+.rev{background:var(--surface);border-block:1px solid var(--line)}.rev .card{background:var(--bg)}
+.score{text-align:center;margin-bottom:28px;font-size:1.05rem}.stars{color:var(--gold);letter-spacing:2px;font-size:1.1rem}
+blockquote{margin:0}blockquote p{margin:8px 0}blockquote footer{font-size:.85rem;color:var(--muted);font-weight:500}
+details{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:14px 20px;margin:0 auto 12px;max-width:720px}
+summary{font-weight:600;cursor:pointer}details p{margin:8px 0 0;color:var(--muted)}
+.cta{background:linear-gradient(135deg,#2d1670,#5a30c8);color:#fff;border-radius:28px;padding:44px 28px;text-align:center}
+.cta h2{font-size:clamp(1.8rem,5vw,2.6rem);margin:0 0 8px}
+.cta .btn{background:#fff;color:#2d1670}
+.info{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:14px;margin-top:26px;text-align:left}
+.info div{background:rgba(255,255,255,.12);border-radius:14px;padding:14px 16px;font-size:.93rem}
+.open{color:#9ff0c0;font-weight:600}
+footer.site{text-align:center;padding:28px 0;color:var(--muted);font-size:.85rem}
+@media(max-width:620px){nav ul li:not(:last-child){display:none}.float{font-size:1.7rem}}
+</style>
+</head>
+<body>
+<header><div class="wrap"><nav>
+<a class="logo" href="#top">JDssy <b>Vibes</b> 🎉</a>
+<ul><li><a href="#services">Services</a></li><li><a href="#packages">Packages</a></li><li><a href="#reviews">Reviews</a></li><li><a href="#contact" class="btn sm">Book Now</a></li></ul>
+</nav></div></header>
+
+<div id="top" class="hero">
+<span class="float f1">🎈</span><span class="float f2">🎤</span><span class="float f3">🪩</span><span class="float f4">🎊</span>
+<div class="wrap">
+<span class="pill">⭐ 5.0 on Google · Santa Maria, Bulacan</span>
+<h1>Let’s Bring the <span>Vibes!</span></h1>
+<p>Party equipment rental for birthdays, debuts, weddings, reunions and fiestas. Affordable, reliable, and ready to roll.</p>
+<a class="btn" href="#contact">Reserve Your Date</a><a class="btn pink" href="#services">See What We Rent</a>
+</div></div>
+
+<div class="ribbon"><div>🎉 Tents &nbsp;•&nbsp; 🪑 Tables &amp; Chairs &nbsp;•&nbsp; 🔊 Sound System &nbsp;•&nbsp; 🎤 Videoke &nbsp;•&nbsp; 💡 Party Lights &nbsp;•&nbsp; 🎈 Decor &nbsp;•&nbsp; 🎉 Tents &nbsp;•&nbsp; 🪑 Tables &amp; Chairs &nbsp;•&nbsp; 🔊 Sound System &nbsp;•&nbsp; 🎤 Videoke &nbsp;•&nbsp; 💡 Party Lights &nbsp;•&nbsp; 🎈 Decor &nbsp;•&nbsp;</div></div>
+
+<section id="services"><div class="wrap">
+<div class="head"><span class="tag">What we rent</span><h2>Everything for the Party</h2><p>Sample list. Update with your real inventory.</p></div>
+<div class="grid">
+<div class="card"><div class="ic">⛺</div><h3>Tents &amp; Canopies</h3><p>Shade and shelter for outdoor events of any size.</p></div>
+<div class="card"><div class="ic">🪑</div><h3>Tables &amp; Chairs</h3><p>Comfortable seating for all your guests.</p></div>
+<div class="card"><div class="ic">🔊</div><h3>Sound System</h3><p>Speakers and mics for clear, loud fun.</p></div>
+<div class="card"><div class="ic">🎤</div><h3>Videoke</h3><p>Everyone’s favorite. Sing all night long.</p></div>
+<div class="card"><div class="ic">💡</div><h3>Party Lights</h3><p>Colorful lighting to set the mood.</p></div>
+<div class="card"><div class="ic">🎈</div><h3>Decor &amp; Extras</h3><p>Backdrops, balloons and more.</p></div>
+</div></div></section>
+
+<div class="stats"><div class="wrap"><div class="grid">
+<div><b>5.0★</b>Google rating</div><div><b>100%</b>Happy customers</div><div><b>1-2-3</b>Easy booking</div><div><b>5 PM</b>We close daily</div>
+</div></div></div>
+
+<section id="packages"><div class="wrap">
+<div class="head"><span class="tag">Packages</span><h2>Pick Your Party Size</h2><p>Sample bundles. Message us for the latest rates.</p></div>
+<div class="grid pk">
+<div class="card"><h3>Small Gathering</h3><p>Perfect for birthdays and family get-togethers.</p><ul><li>Tables &amp; chairs</li><li>Basic sound system</li><li>Delivery &amp; pickup</li></ul><a class="btn sm" href="#contact">Ask for Quote</a></div>
+<div class="card hot"><span class="tagbadge">Most Popular</span><h3>Party Pack</h3><p>The full vibes for debuts and celebrations.</p><ul><li>Tent &amp; seating</li><li>Sound system + videoke</li><li>Party lights</li></ul><a class="btn pink sm" href="#contact">Ask for Quote</a></div>
+<div class="card"><h3>Grand Event</h3><p>Big crowds, weddings and fiestas.</p><ul><li>Multiple tents</li><li>Full sound &amp; lights</li><li>Decor &amp; setup help</li></ul><a class="btn sm" href="#contact">Ask for Quote</a></div>
+</div></div></section>
+
+<section style="padding-top:0"><div class="wrap">
+<div class="head"><span class="tag">How it works</span><h2>Booking is Easy</h2></div>
+<div class="grid steps">
+<div class="card"><h3>Message Us</h3><p>Tell us your date, place and needs.</p></div>
+<div class="card"><h3>Confirm</h3><p>We confirm availability and your quote.</p></div>
+<div class="card"><h3>We Deliver</h3><p>Equipment arrives ready for your event.</p></div>
+<div class="card"><h3>Enjoy!</h3><p>We pick up after. Zero stress.</p></div>
+</div></div></section>
+
+<section id="reviews" class="rev"><div class="wrap">
+<div class="head"><span class="tag">Reviews</span><h2>Happy Customers</h2></div>
+<div class="score"><span class="stars">★★★★★</span> <strong>5.0</strong> from 6 Google reviews</div>
+<div class="grid">
+<div class="card"><blockquote><p class="stars">★★★★★</p><p>“Reliable service and worth every peso!”</p><footer>Google review</footer></blockquote></div>
+<div class="card"><blockquote><p class="stars">★★★★★</p><p>“Good service, brother is kind!”</p><footer>Clark Siaz</footer></blockquote></div>
+<div class="card"><blockquote><p class="stars">★★★★★</p><p>“On time ang delivery at malinis ang mga gamit. Sobrang smooth ng birthday party namin!”</p></blockquote></div>
+<div class="card"><blockquote><p class="stars">★★★★★</p><p>“Maayos kausap, abot-kaya ang presyo, at maganda ang sound system. Uulit kami!”</p></blockquote></div>
+<div class="card"><blockquote><p class="stars">★★★★★</p><p>“Na-setup agad ang tent at mga upuan bago dumating ang bisita. Highly recommended!”</p></blockquote></div>
+</div></div></section>
+
+<section><div class="wrap">
+<div class="head"><span class="tag">FAQ</span><h2>Quick Questions</h2></div>
+<details><summary>Do you deliver and pick up?</summary><p>Yes! We deliver and pick up your rented equipment around Santa Maria, Bulacan and nearby areas. Delivery fees may depend on your location, so send us your address for an exact quote.</p></details>
+<details><summary>How early should I book?</summary><p>We recommend booking at least a week ahead. For weekends, holidays, and peak seasons like December and fiesta months, book 2 to 3 weeks early so your date is secured.</p></details>
+<details><summary>How do I reserve my date?</summary><p>Call 0966 318 4942 or message us on Facebook with your event date, location, and the equipment you need. We’ll confirm availability and send your quote, and a small reservation fee may be needed to hold your date.</p></details>
+<details><summary>What payment methods do you accept?</summary><p>We accept cash and common e-wallets such as GCash. Ask us about payment options when you book.</p></details>
+<details><summary>What if I need to reschedule or cancel?</summary><p>Just let us know as early as possible. We’ll do our best to move your booking to another available date.</p></details>
+<details><summary>Can I rent only one item?</summary><p>Of course. You can rent a single item like a sound system or a few tables and chairs, or choose a package for the whole party.</p></details>
+</div></section>
+
+<section id="contact" style="padding-top:0"><div class="wrap"><div class="cta">
+<h2>Ready to Party? 🎉</h2><p>Message us now and check if your date is open.</p>
+<a class="btn" href="tel:+639663184942">📞 Call 0966 318 4942</a>
+<div class="info">
+<div>📍 Pagsikat Prime Phase 2, Blk 52 Lot 61, Santa Maria, Bulacan 3022</div>
+<div>🕔 <span class="open">Open</span> · Closes 5 PM</div>
+<div>💬 Facebook: JDssy Vibes Rental</div>
+</div></div></div></section>
+
+<footer class="site">© 2026 JDssy Vibes Rental · Sample website concept</footer>
+</body>
+</html>
